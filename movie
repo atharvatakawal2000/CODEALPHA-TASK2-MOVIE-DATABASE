@@ -1,0 +1,31 @@
+public class Movie {
+
+    String name;
+    String genere;
+    int year;
+
+    public Movie(String name, String genere, int year) {
+        this.name = name;
+        this.genere = genere;
+        this.year = year;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getGenere() {
+
+        return genere;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    @Override
+    public String toString() {
+        return "Movie [name=" + name + ", genere=" + genere + ", year=" + year + "]";
+    }
+
+}
